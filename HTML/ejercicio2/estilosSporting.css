@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+
+html {
+    background-color: rgb(148, 25, 25);
+}
+
+header {
+    background-color: rgb(120, 13, 13);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-family: "Carme", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap:84%;
+}
+
+.titulo1 {
+    font-size: 30px;
+}
