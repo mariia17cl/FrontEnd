@@ -12,11 +12,75 @@ header {
     color: white;
     font-weight: 700;
     font-family: "Carme", sans-serif;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    gap:84%;
+    width: auto;
+
 }
 
+.headerIzq{
+    white-space: nowrap;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.headerDch{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    
+}
 .titulo1 {
     font-size: 30px;
+}
+
+.titulo2{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articulos{
+    color: antiquewhite;
+}
+
+.escudo{
+    width: auto;
+    height: 100px;
+
+}
+
+
+
+
+/* Media Queries para pantallas más pequeñas COPIAO DEL CHATGPT*/
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headerIzq {
+        justify-content: center;
+        margin-bottom: 10px; /* Espacio entre el header izquierdo y derecho */
+    }
+
+    .titulo1 {
+        font-size: 24px; /* Ajustar tamaño de fuente para pantallas pequeñas */
+    }
+
+    .titulo2 {
+        font-size: 14px; /* Ajustar tamaño de fuente para pantallas pequeñas */
+    }
+
+    .headerDch {
+        margin-bottom: 10px; /* Espacio inferior para separar elementos */
+    }
 }
