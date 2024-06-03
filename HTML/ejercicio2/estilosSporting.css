@@ -2,6 +2,7 @@
 
 html {
     background-color: rgb(148, 25, 25);
+    
 }
 
 header {
@@ -28,10 +29,22 @@ header {
     
 }
 
+.escudo{
+    width: auto;
+    height: 100px;
+
+}
+
 .headerCentro{
     align-items: center;
     text-align: center;
     display: flex;
+}
+
+.titulo1 {
+    font-size: 30px;
+    color: rgb(190, 16, 16);
+
 }
 
 .headerDch{
@@ -43,12 +56,6 @@ header {
     color: rgb(190, 16, 16);
     
 }
-.titulo1 {
-    font-size: 30px;
-    color: rgb(190, 16, 16);
-
-}
-
 .titulo2{
     font-size: 15px;
     font-style: italic;
@@ -56,12 +63,32 @@ header {
     
 }
 
-.articulos{
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-family: "Carme", sans-serif;
+    
+}
+
+.bestPlayers{
+    color: white;
+    font-size: 20px;
+
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.player{
     color: antiquewhite;
+    background: rgb(45, 42, 42);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.escudo{
-    width: auto;
-    height: 100px;
 
-}
